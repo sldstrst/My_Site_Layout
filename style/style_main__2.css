@@ -1,0 +1,50 @@
+.main_container__2 {
+    border-top: 1.8px solid rgb(120, 153, 110);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    min-height: 500px;
+    height: max-content;
+    padding: 40px 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.main_img__1 img {
+    width: 220px;
+    height: auto;
+}
+
+.main_contr__2_content {
+    font-family: "Ubunty", serif;
+    font-weight: 250;
+    font-size: 20px;
+    width: 550px;
+    min-height: 320px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main_contr__2_text {
+    text-align: right;
+}
+
+pre {
+    right: 22.5px;
+    display: flex;
+    line-height: 1.625;
+    overflow-x: auto;
+    margin: 35px 0 20px 115px;
+}
+
+code {
+    background: rgba(197, 101, 101, 0.349);
+    border-radius: 0.25rem;
+    font-family: "Courier New", monospace;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0.25rem 1.65rem;
+}

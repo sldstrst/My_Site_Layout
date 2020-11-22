@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+.container__all_blocks {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    box-shadow: 30px 0px 30px 10px #fdfdfd86;
+}
+
+.main_container__1 {
+    width: 1100px;
+    min-height: 500px;
+    max-height: 700px;
+    background-color: rgba(255, 255, 255, 0.904);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.main_content {
+    margin-top: 70px;
+    width: 100%;
+    padding: 0 1.3em 1.3em 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: 'Ubuntu', serif;
+}
+
+.main_content_text {
+    font-family: "Ubunty", serif;
+    width: 450px;
+    height: 300px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.main_content_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 300px;
+    max-height: 300px;
+}
+
+.main_content_photo img {
+    display: block;
+    box-sizing: inherit;
+    width: 90%;
+    height: auto;
+    margin: 30px 5% 0 0;
+    border-radius: 5px;
+}
+
+.main_content_text .span_contr_1 {
+    display: block;
+    margin: 30px 0 50px;
+    text-align: center;
+}
+
+hr {
+    color: #59a2a3;
+    border: none;
+    background-color: #59a2a3;
+    height: 0.5px;
+}
+
+p {
+    display: inline-block;
+    margin-bottom: 0.8em;
+    font-weight: 100;
+    text-align: center;
+}
+
+h4 {
+    display: inline-block;
+    margin: 1.2em 0 1.2em 60px;
+    font-weight: 100;
+}
+
+#btn {
+    margin-left: 100px;
+    background: #222;
+    height: 50px;
+    min-width: 150px;
+    max-width: 200px;
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 24px;
+    font-family: 'Cookie', cursive;
+    position: relative;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#btn #circle {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#btn:hover {
+    background: transparent;
+    color: rgba(8, 8, 8, 0.747);
+}
+
+#btn:hover #circle {
+    height: 50px;
+    width: 200px;
+    left: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #eee;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgba(8, 8, 8, 0.747);
+}

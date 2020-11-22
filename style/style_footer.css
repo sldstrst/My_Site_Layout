@@ -1,0 +1,12 @@
+footer {
+    height: 200px;
+    background-color: rgb(228, 228, 228);
+    color: #aaa;
+    width: 100%;
+}
+
+.contr__2__resource_icon {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
